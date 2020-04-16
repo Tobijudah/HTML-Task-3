@@ -59,7 +59,7 @@ h4 {
 .main-nav {
    display: flex;
    justify-content: space-between;
-   padding: 1rem 0;
+   padding: 1rem 0 0.5rem;
    font-size: 1.2rem;
    align-items: center;
 }
@@ -78,13 +78,14 @@ h4 {
    display: grid;
    grid-template-columns: 45% 55%;
    gap: 1rem;
-   margin: 2rem;
+   margin: 1rem;
 }
 
 .intro .intro-text {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   padding-left: 2rem;
 }
 
 .about-me {
@@ -146,21 +147,22 @@ h4 {
    padding: 5rem 5rem;
 }
 
-.contact-me p {
-   font-weight: 400;
-}
-
 .contact-me button {
-   color: #000000;
+   color: #525252;
    background-color: #ffffff;
    text-transform: uppercase;
    text-align: center;
    font-size: .95rem;
    font-weight: 400;
    padding: 0.5rem;
-   border: 0.1rem solid #969696;
+   border: 0.1rem solid #525252;
    border-radius: 10%;
    cursor: pointer;
+}
+
+.contact-me button:hover {
+   background: #525252;
+   color: #fff;
 }
 
 
@@ -172,8 +174,16 @@ h4 {
    padding-right: 3rem;
 }
 
-.contact-me .contact h2, .contact-me .contact p, .contact-me .contact .info {
+.contact-me .contact h2 {
+   font-weight: ;
+}
+
+.contact-me .contact h3, .contact-me .contact p, .contact-me .contact .info {
    margin-bottom: 3rem;
+}
+
+.contact-me .contact .info p {
+   margin-bottom: 0.3rem;
 }
 
 .contact-me .contact > p {
@@ -196,11 +206,12 @@ h4 {
    margin-bottom: .25rem;
    line-height: 2.7;
    font-weight: 700;
+   color: #000;
 }
 
 .field input, .field input:focus, .field select, textarea {
-   color: #969696;
-   border: 0.1rem solid #969696;
+   color: #525252;
+   border: 0.1rem solid #525252;
    border-radius: 0.5rem;
    background: #ffffff;
    padding: 1rem;
@@ -211,7 +222,7 @@ h4 {
 
 .field input::placeholder, textarea::placeholder, .field input::selection{
    font-family: 'Montserrat', sans-serif;
-   color: #000000;
+   color: #525252;
    font-weight: 500;
    font-size: 0.85rem;
 }
