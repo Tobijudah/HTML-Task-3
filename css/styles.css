@@ -116,12 +116,12 @@ h4 {
 }
 
 .about-me .sub h4 {
-	width: 335px;
+	width: 100%;
 	margin-bottom: 0.3rem;
 }
 
 .about-me .sub p {
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 
 .skills {
@@ -142,12 +142,12 @@ h4 {
 }
 
 .skills .sub h4 {
-	width: 456.83px;
+	width: 100%;
 	margin-bottom: 0.3rem;
 }
 
 .skills .sub p {
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 
 .contact-me {
@@ -252,13 +252,12 @@ textarea::placeholder,
 	padding-top: 15px;
 	padding-bottom: 1rem;
 	display: flex;
-	justify-content: center;
+   justify-content: space-evenly;
+   
 }
 
-.footer .social .fab:hover {
+.footer .social .fab:hover, .footer .social .far:hover {
 	color: #525252;
 }
 
-.fa-twitter {
-	margin: 0 35px;
-}
+
