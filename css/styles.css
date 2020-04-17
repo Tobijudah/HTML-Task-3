@@ -385,5 +385,6 @@ textarea::placeholder,
 
 	.main-nav a:hover {
 		color: #525252;
+		border: none;
 	}
 }
