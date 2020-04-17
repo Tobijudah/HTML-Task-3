@@ -75,7 +75,7 @@ h4 {
 }
 
 .main-nav a {
-   padding: 0.5rem;
+	padding: 0.5rem;
 }
 
 .main-nav a:hover {
@@ -252,12 +252,133 @@ textarea::placeholder,
 	padding-top: 15px;
 	padding-bottom: 1rem;
 	display: flex;
-   justify-content: space-evenly;
-   
+	justify-content: space-evenly;
 }
 
-.footer .social .fab:hover, .footer .social .far:hover {
+.footer .social .fab:hover,
+.footer .social .far:hover {
 	color: #525252;
 }
 
+@media (max-width: 1000px) {
+	h1 {
+		font-size: 2.5rem;
+		letter-spacing: normal;
+	}
 
+	h2 {
+		font-size: 1.75rem;
+	}
+
+	.container {
+		width: 85%;
+	}
+	
+	.intro {
+		display: grid;
+		grid-template-columns: 40% 60%;
+		gap: 1rem;
+		margin: 1rem;
+	}
+
+	.about-me {
+		padding-left: 1rem;
+	}
+
+	.about-me p {
+		font-size: 1.05rem;
+		grid-template-columns: 34% 31% 34%
+	}
+
+	.about-me .sub p {
+		font-size: 0.95rem;
+	}
+}
+
+@media (max-width: 700px) {
+	h1 {
+		font-size: 3rem;
+		letter-spacing: normal;
+	}
+
+	h2 {
+		font-size: 1.75rem;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+	.text {
+		margin-top: 0.75rem;
+	}
+
+	.intro {
+		display: flex;
+		flex-direction: column;
+		margin: 2rem 0;
+	}
+
+	.intro .intro-text {
+		order: 1;
+		padding: 0;
+		align-items: start;
+	}
+
+	.intro .img {
+		order: 2;
+	}
+
+	.about-me {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.about-me .main,
+	.about-me .sub {
+		margin-bottom: 2rem;
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.skills .sub {
+		margin-top: 1rem;
+	}
+
+	.contact-me {
+		flex-direction: column;
+		padding: 3rem 2rem;
+	}
+
+	.contact-me .contact h3,
+	.contact-me .contact p,
+	.contact-me .contact .info {
+		margin-bottom: 1rem;
+	}
+
+	.contact-me .contact {
+		margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 2.45rem;
+	}
+
+	h3 {
+		font-size: 1.7rem;
+	}
+
+	nav > h4 {
+		font-size: 1.2rem;
+	}
+
+	.main-nav a {
+		font-size: 1.05rem;
+		padding: 0.3rem;
+	}
+}
