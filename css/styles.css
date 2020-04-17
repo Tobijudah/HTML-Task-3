@@ -221,7 +221,8 @@ h4 {
 .field input:focus,
 .field select,
 textarea {
-	color: #52525200;
+	color: #5e4545;
+	font-family: "Montserrat", sans-serif';
 	border: 0.032rem solid #525252;
 	border-radius: 0.25rem;
 	background: #ffffff;
