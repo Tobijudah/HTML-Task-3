@@ -382,4 +382,8 @@ textarea::placeholder,
 		font-size: 1.05rem;
 		padding: 0.3rem;
 	}
+
+	.main-nav a:hover {
+		color: #525252;
+	}
 }
