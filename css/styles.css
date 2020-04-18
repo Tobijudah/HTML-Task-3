@@ -274,7 +274,7 @@ textarea::placeholder,
 	.container {
 		width: 85%;
 	}
-	
+
 	.intro {
 		display: grid;
 		grid-template-columns: 40% 60%;
@@ -288,7 +288,7 @@ textarea::placeholder,
 
 	.about-me p {
 		font-size: 1.05rem;
-		grid-template-columns: 34% 31% 34%
+		grid-template-columns: 34% 31% 34%;
 	}
 
 	.about-me .sub p {
