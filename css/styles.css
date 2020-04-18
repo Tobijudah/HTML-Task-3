@@ -96,7 +96,13 @@ P {
 	display: grid;
 	grid-template-columns: 45% 55%;
 	gap: 1rem;
-	margin: 1rem;
+	margin: 1rem 0;
+}
+
+.intro .img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .intro .intro-text {
@@ -287,7 +293,7 @@ textarea::placeholder,
 		display: grid;
 		grid-template-columns: 40% 60%;
 		gap: 1rem;
-		margin: 1rem;
+		margin: 1rem 0;
 	}
 
 	.about-me {
